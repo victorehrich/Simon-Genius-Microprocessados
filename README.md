@@ -8,9 +8,10 @@ Victor Emanuel Alves dos Santos - 417395
 
 # Projeto Final da disciplina de Sistemas Microprocessados (2021.2)
 
-<h3>Justificativa do Projeto</h3>
+<h3>Objetivos</h3>
 
-Nosso projeto surge da ideia de adaptar o Genius, que foi um brinquedo popular na década de 80, em um jogo que rodasse no STM32Cube e no Proteus.
+ - Aplicar os conhecimentos obtidos na disciplina
+ - Adaptar o jogo Simon/Genius para um projeto que pudesse ser executado nas ferramentas exigidas neste trabalho.
 
 <h3>Introdução</h3>
 
