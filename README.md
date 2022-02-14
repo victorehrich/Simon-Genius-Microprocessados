@@ -23,3 +23,7 @@ Youtube: ?
 
 <h3> Circuito </h3>
 <img src="IMG/Circuito.png">
+
+<h3> Fluxograma </h3>
+<img src="IMG/Fluxograma.png">
+
