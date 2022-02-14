@@ -169,7 +169,8 @@ int main(void)
 			if(queueAux == 10)
 			{
 				GanhouJogo();
-				return;
+				startGame = 0;
+				queueAux = 0;
 			}
 
 			//Escolhe um led aleatório para acender, usando para isso um tick do clock, e adiciona na fila
@@ -236,7 +237,6 @@ int main(void)
 				  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0);
 				  HAL_Delay(delay);
 				  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0);
-
 				  //Aqui armazena a resposta
 				  queueReply[i] = 0;
 				  //Aqui confere se a resposta nessa posição é igual
@@ -253,7 +253,8 @@ int main(void)
 				  else{
 					  pressButton = 1;
 					  PerdeuJogo();
-					  return;
+					  startGame = 0;
+					  queueAux = 0;
 				  }
 			  }
 			  if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5))
@@ -272,7 +273,8 @@ int main(void)
 				  else{
 					  pressButton = 1;
 					  PerdeuJogo();
-					  return;
+					  startGame = 0;
+					  queueAux = 0;
 				  }
 			  }
 			  if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6))
@@ -291,7 +293,8 @@ int main(void)
 				  else{
 					  pressButton = 1;
 					  PerdeuJogo();
-					  return;
+					  startGame = 0;
+					  queueAux = 0;
 				  }
 			  }
 			  if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7))
@@ -310,7 +313,8 @@ int main(void)
 				  else{
 					  pressButton = 1;
 					  PerdeuJogo();
-					  return;
+					  startGame = 0;
+					  queueAux = 0;
 				  }
 			  }
 
