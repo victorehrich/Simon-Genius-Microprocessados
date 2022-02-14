@@ -19,7 +19,7 @@ Criado por Ralph Baer e Howard J. Morrison, O Genius/Simon foi um brinquedo elet
 
 <h3>Link do vídeo deste Projeto</h3>
 
-Youtube: ?
+Youtube: https://youtu.be/hmU3co5mwA0
 
 <h3> Circuito </h3>
 <img src="IMG/Circuito.png">
