@@ -22,4 +22,4 @@ Criado por Ralph Baer e Howard J. Morrison, O Genius/Simon foi um brinquedo elet
 Youtube: ?
 
 <h3> Circuito </h3>
-<img src="IMG/Circuito">
+<img src="IMG/Circuito.png">
