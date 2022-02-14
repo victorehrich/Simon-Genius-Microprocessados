@@ -57,7 +57,8 @@ static void MX_RTC_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void PerdeuJogo(){
+void PerdeuJogo()
+{
 	HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0);
 	HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_1);
 	HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_2);
@@ -72,8 +73,10 @@ void PerdeuJogo(){
 	HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_3);
 }
 
-void GanhouJogo(){
-	for(int h = 0; h< 3; h++){
+void GanhouJogo()
+{
+	for(int h = 0; h< 3; h++)
+	{
 		HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0);
 		HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_1);
 		HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_2);
@@ -86,9 +89,7 @@ void GanhouJogo(){
 		HAL_Delay(200);
 	}
 }
-void ResetGame(){
 
-}
 /* USER CODE END 0 */
 
 /**
